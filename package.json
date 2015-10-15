@@ -13,8 +13,8 @@
   "devDependencies": {
     "aws-lambda-mock-context": "^0.2.0",
     "babel": "^5.8.23",
+    "espower-babel": "^3.3.0",
     "fluct": "^0.3.4",
-    "intelli-espower-loader": "^1.0.0",
     "mocha": "^2.3.3",
     "nock": "^2.15.0",
     "power-assert": "^1.1.0"
