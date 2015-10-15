@@ -3,6 +3,7 @@ import nock          from "nock";
 import mockContext   from "aws-lambda-mock-context";
 
 import handler        from "../src/index";
+import mockEvent      from "./fixtures/event";
 import mockResponse1  from "./fixtures/response1";
 import mockResponse2  from "./fixtures/response2";
 import mockResponse3  from "./fixtures/response3";
@@ -43,7 +44,7 @@ describe("Hotpepper API wrapper", () => {
   });
 
   it("requests with range=300", (done) => {
-    const event = {
+    const query = {
       lat: LAT,
       lng: LNG,
       range: 300,
@@ -51,7 +52,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     }
 
-    handler(event, mockContext());
+    handler(mockEvent(query), mockContext());
     const mockShops = mockResponse1.results.shop;
 
     mockContext.Promise
@@ -73,15 +74,15 @@ describe("Hotpepper API wrapper", () => {
   });
 
   it("requests with range=500", (done) => {
-    const event = {
+    const query = {
       lat: LAT,
       lng: LNG,
       range: 500,
       limit: 10,
       offset: 0
-    }
+    };
 
-    handler(event, mockContext());
+    handler(mockEvent(query), mockContext());
 
     mockContext.Promise
       .then((result) => {
@@ -94,7 +95,7 @@ describe("Hotpepper API wrapper", () => {
   });
 
   it("requests with range=500 and limit=20", (done) => {
-    const event = {
+    const query = {
       lat: LAT,
       lng: LNG,
       range: 500,
@@ -102,7 +103,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     }
 
-    handler(event, mockContext());
+    handler(mockEvent(query), mockContext());
 
     mockContext.Promise
       .then((result) => {
@@ -115,7 +116,7 @@ describe("Hotpepper API wrapper", () => {
   });
 
   it("requests with range=450 and limit=20", (done) => {
-    const event = {
+    const query = {
       lat: LAT,
       lng: LNG,
       range: 450,
@@ -123,7 +124,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     }
 
-    handler(event, mockContext());
+    handler(mockEvent(query), mockContext());
 
     mockContext.Promise
       .then((result) => {
