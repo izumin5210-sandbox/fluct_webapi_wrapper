@@ -1,0 +1,10 @@
+{
+  "name": "hotpepper",
+  "private": true,
+  "fluct": {
+    "contentType": "text/html",
+    "httpMethod": "GET",
+    "path": "/dummy",
+    "statusCode": 200
+  }
+}
