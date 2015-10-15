@@ -38,8 +38,11 @@
     "type": "git",
     "url": "git+https://github.com/izumin5210/webapi_wrapper.git"
   },
+  "directories": {
+    "test": "actions/*/test/"
+  },
   "scripts": {
-    "test": "mocha --require intelli-espower-loader */**/test/*Spec.js",
+    "test": "mocha --compilers js:espower-babel/guess ./actions/*/test/*Spec.js",
     "deploy": "fluct deploy",
     "build": "find ./actions/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib"
   }
