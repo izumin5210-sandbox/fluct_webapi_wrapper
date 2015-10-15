@@ -1,0 +1,323 @@
+{
+  "results": {
+    "results_start": 1,
+    "results_returned": "3",
+    "api_version": "1.26",
+    "shop": [
+      {
+        "name_kana": "るべぇそんべぇーる",
+        "other_memo": "",
+        "photo": {
+          "mobile": {
+            "l": "http://imgfp.hotp.jp/IMGH/64/66/P019516466/P019516466_168.jpg",
+            "s": "http://imgfp.hotp.jp/IMGH/64/66/P019516466/P019516466_100.jpg"
+          },
+          "pc": {
+            "l": "http://imgfp.hotp.jp/IMGH/64/66/P019516466/P019516466_238.jpg",
+            "m": "http://imgfp.hotp.jp/IMGH/64/66/P019516466/P019516466_168.jpg",
+            "s": "http://imgfp.hotp.jp/IMGH/64/66/P019516466/P019516466_58_s.jpg"
+          }
+        },
+        "large_area": {
+          "name": "東京",
+          "code": "Z011"
+        },
+        "sommelier": "いない",
+        "party_capacity": "80",
+        "large_service_area": {
+          "name": "関東",
+          "code": "SS10"
+        },
+        "mobile_access": "地下鉄南北線 東大前 徒歩5分",
+        "id": "J000235579",
+        "address": "東京都文京区本郷６-16-4　フォーレスト本郷内　1F",
+        "lng": "139.7582097949",
+        "course": "あり",
+        "show": "なし",
+        "parking": "なし",
+        "non_smoking": "全面禁煙",
+        "horigotatsu": "なし",
+        "name": "ルヴェソンヴェール 本郷",
+        "genre": {
+          "name": "イタリアン・フレンチ",
+          "catch": "新鮮な素材をその日のスタイルで",
+          "code": "G006"
+        },
+        "open": "ランチ 11：30～14：00ディナー 17：00～21：00",
+        "card": "利用可",
+        "tatami": "なし",
+        "charter": "貸切可",
+        "wifi": "あり",
+        "equipment": "なし",
+        "shop_detail_memo": "会議室も完備。ランチ接待にも。",
+        "band": "不可",
+        "middle_area": {
+          "name": "水道橋・飯田橋・神楽坂",
+          "code": "Y006"
+        },
+        "lat": "35.7132147793",
+        "karaoke": "なし",
+        "logo_image": "http://imgfp.hotp.jp/IMGH/18/57/P019631857/P019631857_69.jpg",
+        "midnight": "営業していない",
+        "budget": {
+          "average": "5000円",
+          "name": "5001～7000円",
+          "code": "B004"
+        },
+        "urls": {
+          "qr": "http://webservice.recruit.co.jp/common/qr?url=http%3A%2F%2Fhpr.jp%2FstrJ000235579%2F%3Fuid%3DNULLGWDOCOMO%26vos%3Dhpp337",
+          "mobile": "http://hpr.jp/strJ000235579/?uid=NULLGWDOCOMO&vos=hpp336",
+          "pc": "http://www.hotpepper.jp/strJ000235579/?vos=nhppalsa000016"
+        },
+        "english": "なし",
+        "lunch": "あり",
+        "service_area": {
+          "name": "東京",
+          "code": "SA11"
+        },
+        "close": "無休",
+        "budget_memo": "",
+        "tv": "なし",
+        "private_room": "あり",
+        "coupon_urls": {
+          "sp": "http://www.hotpepper.jp/strJ000235579/scoupon/?vos=nhppalsa000016",
+          "qr": "http://webservice.recruit.co.jp/common/qr?url=http%3A%2F%2Fhpr.jp%2FS%2FS511.jsp%3FSP%3DJ000235579%26uid%3DNULLGWDOCOMO%26vos%3Dhpp337",
+          "mobile": "http://hpr.jp/S/S511.jsp?SP=J000235579&uid=NULLGWDOCOMO&vos=hpp336",
+          "pc": "http://www.hotpepper.jp/strJ000235579/map/?vos=nhppalsa000016"
+        },
+        "barrier_free": "あり",
+        "small_area": {
+          "name": "本郷三丁目",
+          "code": "XA1J"
+        },
+        "wedding": "あり",
+        "access": "地下鉄南北線　東大前　徒歩5分",
+        "ktai": "つながる",
+        "child": "お子様連れ歓迎",
+        "capacity": "36",
+        "open_air": "なし",
+        "pet": "不可",
+        "food": {
+          "name": "フランス料理",
+          "code": "R023"
+        },
+        "ktai_coupon": "0",
+        "free_food": "なし",
+        "station_name": "東大前",
+        "catch": "利用シーン多数 最大80名　空間　（会場）",
+        "free_drink": "あり"
+      },
+      {
+        "name_kana": "いしょくこうぼう　こだわりや　あかもんまえてん",
+        "other_memo": "※不明点等、お気軽に店舗へご相談下さい",
+        "photo": {
+          "mobile": {
+            "l": "http://imgfp.hotp.jp/IMGH/07/65/P020720765/P020720765_168.jpg",
+            "s": "http://imgfp.hotp.jp/IMGH/07/65/P020720765/P020720765_100.jpg"
+          },
+          "pc": {
+            "l": "http://imgfp.hotp.jp/IMGH/07/65/P020720765/P020720765_238.jpg",
+            "m": "http://imgfp.hotp.jp/IMGH/07/65/P020720765/P020720765_168.jpg",
+            "s": "http://imgfp.hotp.jp/IMGH/07/65/P020720765/P020720765_58_s.jpg"
+          }
+        },
+        "large_area": {
+          "name": "東京",
+          "code": "Z011"
+        },
+        "sommelier": "いない",
+        "party_capacity": "36",
+        "large_service_area": {
+          "name": "関東",
+          "code": "SS10"
+        },
+        "mobile_access": "地下鉄丸の内線本郷三丁目駅徒歩7分",
+        "id": "J000126281",
+        "address": "東京都文京区本郷５－２８－２　ライオンズマンション赤門前１０１",
+        "lng": "139.7593681215",
+        "course": "あり",
+        "show": "なし",
+        "parking": "あり ：有：専用無料1台",
+        "non_smoking": "一部禁煙 ：お席等、お気軽に店舗へお問合せ下さい。",
+        "horigotatsu": "なし ：掘りごたつ席のご用意はございませんが、お席のレイアウト等、お気軽にご相談下さい",
+        "name": "こだわりや 赤門前店",
+        "genre": {
+          "name": "居酒屋",
+          "catch": "ワインと唐揚げと定食のおいしいお店",
+          "code": "G001"
+        },
+        "open": "ランチ月～金 11:30～14:00 月～木 17:00～23:00 (L.O.22:00、ドリンクL.O.22:30） 金 17:00～23:30 （L.O.22:30、ドリンクL.O.23:00） 土 14:00～22:00 （L.O.21:00、ドリンクL.O.21:30） ",
+        "card": "利用可",
+        "tatami": "なし ：お座敷フロアのご用意はございませんが、お席のレイアウト等、お気軽にご相談下さい",
+        "charter": "貸切可 ：店舗の貸切等、詳細はお気軽に店舗までご相談ください♪（貸切ができない場合もございます）",
+        "wifi": "未確認",
+        "equipment": "なし",
+        "shop_detail_memo": "各種飲み放題付きコース等をご用意しております。",
+        "band": "不可",
+        "middle_area": {
+          "name": "水道橋・飯田橋・神楽坂",
+          "code": "Y006"
+        },
+        "lat": "35.7109345116",
+        "karaoke": "なし",
+        "logo_image": "http://imgfp.hotp.jp/IMGH/30/75/P017653075/P017653075_69.jpg",
+        "midnight": "営業している",
+        "budget": {
+          "average": "2700円（通常平均）2000円（宴会平均）650円（ランチ平均） ",
+          "name": "2001～3000円",
+          "code": "B002"
+        },
+        "urls": {
+          "qr": "http://webservice.recruit.co.jp/common/qr?url=http%3A%2F%2Fhpr.jp%2FstrJ000126281%2F%3Fuid%3DNULLGWDOCOMO%26vos%3Dhpp337",
+          "mobile": "http://hpr.jp/strJ000126281/?uid=NULLGWDOCOMO&vos=hpp336",
+          "pc": "http://www.hotpepper.jp/strJ000126281/?vos=nhppalsa000016"
+        },
+        "english": "なし",
+        "lunch": "あり",
+        "service_area": {
+          "name": "東京",
+          "code": "SA11"
+        },
+        "close": "日、祝",
+        "budget_memo": "お通し代：294円（詳細は店舗へお問合せ下さい）",
+        "tv": "なし",
+        "private_room": "あり ：2名～ご相談に応じます♪少人数から団体様まで様々なシーン対応！最大30名様迄ご収容可能です♪",
+        "coupon_urls": {
+          "sp": "http://www.hotpepper.jp/strJ000126281/scoupon/?vos=nhppalsa000016",
+          "qr": "http://webservice.recruit.co.jp/common/qr?url=http%3A%2F%2Fhpr.jp%2FS%2FS511.jsp%3FSP%3DJ000126281%26uid%3DNULLGWDOCOMO%26vos%3Dhpp337",
+          "mobile": "http://hpr.jp/S/S511.jsp?SP=J000126281&uid=NULLGWDOCOMO&vos=hpp336",
+          "pc": "http://www.hotpepper.jp/strJ000126281/map/?vos=nhppalsa000016"
+        },
+        "barrier_free": "なし",
+        "small_area": {
+          "name": "本郷三丁目",
+          "code": "XA1J"
+        },
+        "wedding": "バースデーパーティーや結婚式2次会の演出もお手伝いします。詳しくはお問合せ下さい ",
+        "access": "地下鉄丸の内線本郷三丁目駅徒歩7分／地下鉄南北線東大前駅徒歩7分／地下鉄大江戸線本郷三丁目駅徒歩7分",
+        "ktai": "つながる ：docomo/au/softbank/willcomの通信OKです（一部お席は繋がりにくい所もございます）",
+        "child": "お子様連れ歓迎 ：お子様連れも歓迎致します♪ご家族でもゆったりお食事可能です！",
+        "capacity": "48",
+        "open_air": "なし",
+        "pet": "不可",
+        "food": {
+          "name": "和風創作料理",
+          "code": "R021"
+        },
+        "ktai_coupon": "1",
+        "free_food": "なし ：当店では食べ放題プランはご用意しておりません。",
+        "station_name": "本郷三丁目",
+        "catch": "",
+        "free_drink": "あり ：各種飲み放題付きコースをご用意。各種ご宴会の予約承っております！"
+      },
+      {
+        "name_kana": "おおさわ",
+        "other_memo": "",
+        "photo": {
+          "mobile": {
+            "l": "http://imgfp.hotp.jp/IMGH/89/65/P019558965/P019558965_168.jpg",
+            "s": "http://imgfp.hotp.jp/IMGH/89/65/P019558965/P019558965_100.jpg"
+          },
+          "pc": {
+            "l": "http://imgfp.hotp.jp/IMGH/89/65/P019558965/P019558965_238.jpg",
+            "m": "http://imgfp.hotp.jp/IMGH/89/65/P019558965/P019558965_168.jpg",
+            "s": "http://imgfp.hotp.jp/IMGH/89/65/P019558965/P019558965_58_s.jpg"
+          }
+        },
+        "large_area": {
+          "name": "東京",
+          "code": "Z011"
+        },
+        "sommelier": "いない",
+        "party_capacity": "14",
+        "large_service_area": {
+          "name": "関東",
+          "code": "SS10"
+        },
+        "mobile_access": "丸の内線･大江戸線｢本郷三丁目｣駅より徒歩5分｡",
+        "id": "J000846464",
+        "address": "東京都文京区本郷５-28-5 松岡ビル１F",
+        "lng": "139.7596847642",
+        "course": "あり",
+        "show": "なし",
+        "parking": "なし ：徒歩5分圏内にコインパーキングあり。",
+        "non_smoking": "禁煙席なし ：全席喫煙",
+        "horigotatsu": "なし ：ご用意はございません。",
+        "name": "おおさわ 本郷三丁目",
+        "genre": {
+          "name": "居酒屋",
+          "catch": "旬の新鮮な魚、じっくり仕込んだ和食",
+          "code": "G001"
+        },
+        "open": "昼 （定食） 11:30～14:30（14:00 L.O）夜 （居酒屋） 17:30～22:30（22:00 L.O）",
+        "card": "利用不可",
+        "tatami": "なし ：ご用意はございません。",
+        "charter": "貸切可 ：10名～15名位まで",
+        "wifi": "あり",
+        "equipment": "なし",
+        "shop_detail_memo": "",
+        "band": "不可",
+        "middle_area": {
+          "name": "水道橋・飯田橋・神楽坂",
+          "code": "Y006"
+        },
+        "lat": "35.7108623060",
+        "karaoke": "なし",
+        "logo_image": "http://imgfp.hotp.jp/SYS/cmn/images/common/diary/custom/m30_img_noimage.gif",
+        "midnight": "営業していない",
+        "budget": {
+          "average": "3000円",
+          "name": "3001～4000円",
+          "code": "B003"
+        },
+        "urls": {
+          "qr": "http://webservice.recruit.co.jp/common/qr?url=http%3A%2F%2Fhpr.jp%2FstrJ000846464%2F%3Fuid%3DNULLGWDOCOMO%26vos%3Dhpp337",
+          "mobile": "http://hpr.jp/strJ000846464/?uid=NULLGWDOCOMO&vos=hpp336",
+          "pc": "http://www.hotpepper.jp/strJ000846464/?vos=nhppalsa000016"
+        },
+        "english": "なし",
+        "lunch": "あり",
+        "service_area": {
+          "name": "東京",
+          "code": "SA11"
+        },
+        "close": "土曜・日曜・祝祭日 ",
+        "budget_memo": "お通し代あり　320円",
+        "tv": "なし",
+        "private_room": "なし ：ご用意はございません。",
+        "coupon_urls": {
+          "sp": "http://www.hotpepper.jp/strJ000846464/scoupon/?vos=nhppalsa000016",
+          "qr": "http://webservice.recruit.co.jp/common/qr?url=http%3A%2F%2Fhpr.jp%2FS%2FS511.jsp%3FSP%3DJ000846464%26uid%3DNULLGWDOCOMO%26vos%3Dhpp337",
+          "mobile": "http://hpr.jp/S/S511.jsp?SP=J000846464&uid=NULLGWDOCOMO&vos=hpp336",
+          "pc": "http://www.hotpepper.jp/strJ000846464/map/?vos=nhppalsa000016"
+        },
+        "barrier_free": "なし ：入り口のみバリアフリーになっております。",
+        "sub_food": {
+          "name": "割烹",
+          "code": "R003"
+        },
+        "small_area": {
+          "name": "本郷三丁目",
+          "code": "XA1J"
+        },
+        "wedding": "当店では受け付けておりません。",
+        "access": "東京メトロ丸の内線・都営地下鉄大江戸線「本郷三丁目」駅より徒歩5分。東大赤門前の信号を過ぎて2本目の路地をを左折。",
+        "ktai": "つながる ：全機種つながります。",
+        "child": "お子様連れOK ：お気軽にご来店く下さい。",
+        "capacity": "14",
+        "open_air": "なし",
+        "pet": "不可",
+        "free_food": "なし",
+        "food": {
+          "name": "和食全般",
+          "code": "R001"
+        },
+        "ktai_coupon": "0",
+        "station_name": "本郷三丁目",
+        "catch": "乾杯ドリンク半額クーポン こだわりの日本酒・焼酎",
+        "free_drink": "なし"
+      }
+    ],
+    "results_available": 3
+  }
+}
