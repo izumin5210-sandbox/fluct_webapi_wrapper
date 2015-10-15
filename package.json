@@ -16,6 +16,11 @@
   "engines": {
     "node": "0.10.36"
   },
+  "fluct": {
+    "accountId": "WRITE_YOUR_AWS_ACCOUNT_ID",
+    "restapiId": null,
+    "roleName": "WRITE_IAM_ROLE_NAME"
+  },
   "homepage": "https://github.com/izumin5210/webapi_wrapper#readme",
   "license": {
     "type": "MIT",
