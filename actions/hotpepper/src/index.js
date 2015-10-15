@@ -6,12 +6,13 @@ import Parser from "./parser";
 import {HOST, PATH, DEFAULT_PARAMS} from "./constants";
 
 export default function(event, context) {
+  const queryParams = event.queryParams;
   const params = Object.assign({}, DEFAULT_PARAMS, {
-    lat: event.lat,
-    lng: event.lng,
-    range: getRangeCodeFromMeter(event.range),
-    limit: event.limit,
-    offset: event.offset
+    lat: queryParams.lat,
+    lng: queryParams.lng,
+    range: getRangeCodeFromMeter(queryParams.range),
+    limit: queryParams.limit,
+    offset: queryParams.offset
   });
 
   const query = Object.keys(params).map(k => `${k}=${params[k]}`).join("&");
@@ -25,7 +26,7 @@ export default function(event, context) {
     });
 
     res.on("end", () => {
-      const parser = new Parser(event.lat, event.lng, event.range);
+      const parser = new Parser(queryParams.lat, queryParams.lng, queryParams.range);
       context.done(null, parser.parse(body));
     });
   }).on("error", (e) => {
