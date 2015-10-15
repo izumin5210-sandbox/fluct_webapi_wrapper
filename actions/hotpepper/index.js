@@ -1,3 +1,1 @@
-exports.handler = function (event, context) {
-  context.succeed('Hello, world!');
-};
+exports.handler = require("./lib/index.js")
