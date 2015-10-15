@@ -1,7 +1,7 @@
 import "babel/polyfill"
 
 import http   from "http";
-import parse  from "./parse";
+import Parser from "./parser";
 
 import {HOST, PATH, DEFAULT_PARAMS} from "./constants";
 
@@ -9,7 +9,9 @@ export default function(event, context) {
   const params = Object.assign({}, DEFAULT_PARAMS, {
     lat: event.lat,
     lng: event.lng,
-    range: getRangeCodeFromMeter(event.range)
+    range: getRangeCodeFromMeter(event.range),
+    limit: event.limit,
+    offset: event.offset
   });
 
   const query = Object.keys(params).map(k => `${k}=${params[k]}`).join("&");
@@ -23,7 +25,8 @@ export default function(event, context) {
     });
 
     res.on("end", () => {
-      context.done(null, parse(body));
+      const parser = new Parser(event.lat, event.lng, event.range);
+      context.done(null, parser.parse(body));
     });
   }).on("error", (e) => {
       context.fail(e);
