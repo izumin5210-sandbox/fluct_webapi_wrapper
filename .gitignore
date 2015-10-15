@@ -34,3 +34,8 @@ node_modules
 ### fluct ###
 /actions/*/lambda.zip
 /actions/*/node_modules
+
+
+### misc ###
+/actions/*/lib
+/actions/*/src/secrets.js
