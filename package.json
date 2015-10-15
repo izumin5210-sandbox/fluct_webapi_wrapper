@@ -1,19 +1,30 @@
 {
   "name": "webapi_wrapper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Wrapper of web APIs that has latitude and longitude as params",
+  "version": "0.1.0",
+  "author": {
+    "name": "Masayuki IZUMI",
+    "email": "masayuki@izumin.info",
+    "url": "http://izumin.info"
   },
+  "bugs": {
+    "url": "https://github.com/izumin5210/webapi_wrapper/issues"
+  },
+  "engines": {
+    "node": "0.10.36"
+  },
+  "homepage": "https://github.com/izumin5210/webapi_wrapper#readme",
+  "license": {
+    "type": "MIT",
+    "url": "http://izumin.mit-license.org/2015"
+  },
+  "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/izumin5210/webapi_wrapper.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/izumin5210/webapi_wrapper/issues"
-  },
-  "homepage": "https://github.com/izumin5210/webapi_wrapper#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
