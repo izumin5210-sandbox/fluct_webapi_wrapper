@@ -2,9 +2,9 @@
   "name": "hotpepper",
   "private": true,
   "fluct": {
-    "contentType": "text/html",
+    "contentType": "application/json",
     "httpMethod": "GET",
-    "path": "/dummy",
+    "path": "/hotpepper",
     "statusCode": 200
   }
 }
