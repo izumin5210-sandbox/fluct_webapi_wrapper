@@ -8,6 +8,7 @@ import mockResponse2  from "./fixtures/response2";
 import mockResponse3  from "./fixtures/response3";
 import mockResponse4  from "./fixtures/response4";
 import mockResponse5  from "./fixtures/response5";
+import mockResponseRange2Limit20  from "./fixtures/response2-20";
 
 import {HOST, PATH, API_KEY} from "../src/constants";
 
@@ -23,7 +24,9 @@ describe("Hotpepper API wrapper", () => {
       format: "json",
       datum: "world",
       lat: LAT,
-      lng: LNG
+      lng: LNG,
+      limit: 10,
+      offset: 0
     };
 
     [mockResponse1, mockResponse2, mockResponse3, mockResponse4, mockResponse5].forEach((res, i) => {
@@ -32,13 +35,20 @@ describe("Hotpepper API wrapper", () => {
         .query(Object.assign({}, defaultParams, {range: i + 1}))
         .reply(200, res);
     });
+
+    nock(HOST)
+      .get(PATH.gourmet)
+      .query(Object.assign({}, defaultParams, {range: 2, limit: 20, offset: 0}))
+      .reply(200, mockResponseRange2Limit20);
   });
 
   it("requests with range=300", (done) => {
     const event = {
       lat: LAT,
       lng: LNG,
-      range: 300
+      range: 300,
+      limit: 10,
+      offset: 0
     }
 
     handler(event, mockContext());
@@ -66,7 +76,9 @@ describe("Hotpepper API wrapper", () => {
     const event = {
       lat: LAT,
       lng: LNG,
-      range: 500
+      range: 500,
+      limit: 10,
+      offset: 0
     }
 
     handler(event, mockContext());
@@ -74,6 +86,48 @@ describe("Hotpepper API wrapper", () => {
     mockContext.Promise
       .then((result) => {
         assert(result.length === 10);
+        done();
+      })
+      .catch((err) => {
+        done(err);
+      });
+  });
+
+  it("requests with range=500 and limit=20", (done) => {
+    const event = {
+      lat: LAT,
+      lng: LNG,
+      range: 500,
+      limit: 20,
+      offset: 0
+    }
+
+    handler(event, mockContext());
+
+    mockContext.Promise
+      .then((result) => {
+        assert(result.length === 20);
+        done();
+      })
+      .catch((err) => {
+        done(err);
+      });
+  });
+
+  it("requests with range=450 and limit=20", (done) => {
+    const event = {
+      lat: LAT,
+      lng: LNG,
+      range: 450,
+      limit: 20,
+      offset: 0
+    }
+
+    handler(event, mockContext());
+
+    mockContext.Promise
+      .then((result) => {
+        assert(result.length === 12);
         done();
       })
       .catch((err) => {
