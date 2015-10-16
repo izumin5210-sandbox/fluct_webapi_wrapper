@@ -19,6 +19,7 @@
     "babel": "^5.8.23",
     "espower-babel": "^3.3.0",
     "fluct": "^0.3.4",
+    "fluct-utils": "file:modules/fluct-utils",
     "mocha": "^2.3.3",
     "nock": "^2.15.0",
     "power-assert": "^1.1.0"
@@ -47,7 +48,9 @@
     "url": "git+https://github.com/izumin5210/webapi_wrapper.git"
   },
   "scripts": {
-    "build": "find ./actions/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
+    "build": "build:modules && build:actions",
+    "build:actions": "find ./actions/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
+    "build:modules": "find ./modules/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
     "deploy": "fluct deploy",
     "test": "mocha --compilers js:espower-babel/guess ./actions/*/test/*Spec.js"
   }

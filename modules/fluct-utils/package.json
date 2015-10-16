@@ -1,0 +1,16 @@
+{
+  "name": "fluct-utils",
+  "description": "local module of utilities for fluct",
+  "version": "0.1.0",
+  "author": {
+    "name": "Masayuki IZUMI",
+    "email": "masayuki@izumin.info",
+    "url": "http://izumin.info"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://izumin.mit-license.org/2015"
+  },
+  "main": "index.js",
+  "private": true
+}

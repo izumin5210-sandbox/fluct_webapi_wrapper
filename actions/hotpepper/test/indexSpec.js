@@ -1,10 +1,10 @@
-import assert         from "power-assert";
-import nock           from "nock";
-import mockContext    from "aws-lambda-mock-context";
-import assign         from "object-assign"
+import assert             from "power-assert";
+import nock               from "nock";
+import mockContext        from "aws-lambda-mock-context";
+import {createMockEvent}  from "fluct-utils";
+import assign             from "object-assign"
 
 import handler        from "../src/index";
-import mockEvent      from "./fixtures/event";
 import mockResponse1  from "./fixtures/response1";
 import mockResponse2  from "./fixtures/response2";
 import mockResponse3  from "./fixtures/response3";
@@ -53,7 +53,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     }
 
-    handler(mockEvent(query), mockContext());
+    handler(createMockEvent(query), mockContext());
     const mockShops = mockResponse1.results.shop;
 
     mockContext.Promise
@@ -83,7 +83,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     };
 
-    handler(mockEvent(query), mockContext());
+    handler(createMockEvent(query), mockContext());
 
     mockContext.Promise
       .then((result) => {
@@ -104,7 +104,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     }
 
-    handler(mockEvent(query), mockContext());
+    handler(createMockEvent(query), mockContext());
 
     mockContext.Promise
       .then((result) => {
@@ -125,7 +125,7 @@ describe("Hotpepper API wrapper", () => {
       offset: 0
     }
 
-    handler(mockEvent(query), mockContext());
+    handler(createMockEvent(query), mockContext());
 
     mockContext.Promise
       .then((result) => {
