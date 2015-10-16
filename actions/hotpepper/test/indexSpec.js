@@ -1,6 +1,7 @@
-import assert        from "power-assert";
-import nock          from "nock";
-import mockContext   from "aws-lambda-mock-context";
+import assert         from "power-assert";
+import nock           from "nock";
+import mockContext    from "aws-lambda-mock-context";
+import assign         from "object-assign"
 
 import handler        from "../src/index";
 import mockEvent      from "./fixtures/event";
@@ -33,13 +34,13 @@ describe("Hotpepper API wrapper", () => {
     [mockResponse1, mockResponse2, mockResponse3, mockResponse4, mockResponse5].forEach((res, i) => {
       nock(HOST)
         .get(PATH.gourmet)
-        .query(Object.assign({}, defaultParams, {range: i + 1}))
+        .query(assign({}, defaultParams, {range: i + 1}))
         .reply(200, res);
     });
 
     nock(HOST)
       .get(PATH.gourmet)
-      .query(Object.assign({}, defaultParams, {range: 2, limit: 20, offset: 0}))
+      .query(assign({}, defaultParams, {range: 2, limit: 20, offset: 0}))
       .reply(200, mockResponseRange2Limit20);
   });
 
