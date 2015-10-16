@@ -6,7 +6,7 @@ import Parser from "./parser";
 import {HOST, PATH, DEFAULT_PARAMS} from "./constants";
 
 export default function(event, context) {
-  const queryParams = event.queryParams;
+  const queryParams = event.queryParameters;
   const params = assign({}, DEFAULT_PARAMS, {
     lat: queryParams.lat,
     lng: queryParams.lng,

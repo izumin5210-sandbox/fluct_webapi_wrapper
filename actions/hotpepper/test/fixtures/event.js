@@ -24,7 +24,7 @@ export default function(query) {
     },
     httpMethod: "GET",
     pathParams: { },
-    queryParams: query,
+    queryParameters: query,
     requestId: "c2cee057-41e2-11e5-81c7-e9b9b0c6b555",
     resourceId: "2x33sn",
     resourcePath: "/echo",
