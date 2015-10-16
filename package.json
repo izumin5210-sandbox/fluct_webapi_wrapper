@@ -47,7 +47,9 @@
     "url": "git+https://github.com/izumin5210/webapi_wrapper.git"
   },
   "scripts": {
-    "build": "find ./actions/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
+    "build": "build:modules && build:actions",
+    "build:actions": "find ./actions/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
+    "build:modules": "find ./modules/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
     "deploy": "fluct deploy",
     "test": "mocha --compilers js:espower-babel/guess ./actions/*/test/*Spec.js"
   }
