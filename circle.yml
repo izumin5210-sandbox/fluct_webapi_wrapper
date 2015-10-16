@@ -4,9 +4,3 @@ machine:
 test:
   pre:
     - find ./actions/* -type d -maxdepth 0 | xargs -I {} cp {}/src/secrets{.sample,}.js
-deployment:
-  production:
-    branch: master
-    commands:
-      - npm run build
-      - npm run deploy
